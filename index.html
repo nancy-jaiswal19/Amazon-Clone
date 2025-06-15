@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="font-sans ">
+<body class="">
   <header class="w-full h-[60px] text-white">
     <!-- Main navbar -->
 
@@ -23,14 +23,14 @@
 
       <!-- logo -->
 
-      <div class="h-[48px] pt-4 flex hover:border border-white my-auto">
+      <div class="h-[48px] pt-4 flex hover:border hover:border-white my-auto p-1">
         <div class="bg-[url('./images/logo.png')] w-[100px] h-[40px] bg-no-repeat bg-contain "></div>
         <p class="text-white">.in</p>
       </div>
- 
+
       <!-- Address -->
 
-      <div>
+      <div class="hover:border hover:border-white p-2">
         <div class="w-full ml-4 text-[12px] text-[#CCCCCC] -mb-2">Hello</div>
         <div>
           <span class="mt-[8px]"><i class="fa-solid fa-location-dot"></i></span>
@@ -40,96 +40,112 @@
 
       <!-- search -->
 
-      <div class="flex  justify-center px-2">
+      <div class="flex  justify-center px-2 ">
+        <div class="flex items-center rounded-md overflow-hidden border border-transparent focus-within:border-4 focus-within:border-[#f08804]">
+          <!-- Dropdown -->
+          <button
+            class="group bg-[#E6E6E6] h-[40px] px-3 flex items-center justify-between w-[52px] hover:bg-[#dddddd] transition-colors duration-200 cursor-pointer ">
+            <span class="text-sm text-[#555] leading-none group-hover:text-black">All</span>
+            <i class="fa-solid fa-caret-down text-[#555] text-xs ml-2 group-hover:text-black"></i>
+        </button>
 
-        <!-- Dropdown -->
+          <!-- input -->
 
-        <div class="group rounded-l-md bg-[#E6E6E6] h-[40px] px-3 flex items-center justify-between w-[52px] hover:bg-[#dddddd] transition-colors duration-200 ">
-          <span class="text-[14px] text-[#555] leading-none group-hover:text-black">All</span>
-          <i class="fa-solid fa-caret-down text-[#555] text-[12px] ml-2 group-hover:text-black"></i>
-        </div>
-
-        <!-- input -->
-
-        <div class=" w-[628px] h-[40px] bg-white flex items-center p-2">
+          <label for="search" class="sr-only">Search Amazon.in</label>
           <input type="text" id="search" name="search" placeholder="Search Amazon.in"
-            class="w-full text-[#111] text-[15px] ">
+            class="w-[628px] h-[40px] bg-white text-[#111] text-[15px] outline-none border border-transparent  px-2" />
+
+          <!-- icon -->
+
+          <div class="w-[45px] h-[40px] bg-[#febd69] flex justify-center items-center">
+            <i class="fa-solid fa-magnifying-glass text-black text-lg"></i>
+          </div>
         </div>
 
-        <!-- icon -->
+        
 
-        <div class="w-[45px] h-[40px] bg-[#febd69] rounded-r-md flex justify-center items-center">
-          <i class="fa-solid fa-magnifying-glass text-black text-[18px]"></i>
-        </div>
+
+
       </div>
 
       <!-- language -->
 
-      <div class="flex items-center">
-        <span
-          class="inline-block bg-[url('./images/india.webp')] w-[24px] h-[19px] bg-cover bg-center bg-no-repeat rounded-[1px] mt-[7px] mr-[2px]"></span>
-        <div class="text-[14px] mt-[5px] font-[700]">EN</div>
+      <div class="flex items-center ">
+        <div class="h-[50px] flex items-center hover:border hover:border-white pl-1">
+          <span
+            class="inline-block bg-[url('./images/india.webp')] w-[24px] h-[19px] bg-cover bg-center bg-no-repeat rounded-[1px] mt-[7px] mr-[2px] "></span>
+          <div class="text-[14px] mt-[5px] font-[700]">EN</div>
+        </div>
+
         <i class="fa-solid fa-caret-down text-[#555] text-[12px] mt-[10px] ml-[2px]"></i>
       </div>
 
       <!-- account -->
-      <div class="flex  items-center mb-3">
-        <div>
-          <div class="text-[#fff] text-[12px] mt-[9px] leading-[14px]">Hello, sign in</div>
-          <div class="text-[14px] text-[#fff] font-[700] leading-[15px]">Account & Lists</div>
+
+      <div class="flex items-center ">
+        <div class="h-[50px] flex flex-col justify-center items-start hover:border hover:border-white pr-1 pl-2">
+          <span class="text-[12px]">Hello, sign in</span>
+          <span class="text-[14px] font-[700] leading-none ">Account & Lists</span>
         </div>
-        <i class="fa-solid fa-caret-down text-[#555] text-[13px] mt-[25px] ml-[5px]"></i>
+        <i class="fa-solid fa-caret-down mt-4 text-[#555] "></i>
       </div>
 
-      <!-- Return & Orders -->
-      <div class="mb-3">
-        <div class="h-[14px] text-[12px] mt-[9px] leading-[14px]">Returns</div>
-        <div class="text-[14px]  font-[700] leading-[15px]">& Orders</div>
+
+      <!-- Returns & Orders -->
+      <div
+        class="h-[50px] px-2 py-1 flex flex-col justify-center items-start hover:border hover:border-white cursor-pointer">
+        <span class="text-[12px] ">Returns</span>
+        <span class="text-[14px] font-[700] leading-none">& Orders</span>
       </div>
+
 
       <!-- Cart -->
 
-      <div>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <span class="font-[700] text-[12px]">Cart</span>
+      <div class="h-[50px] flex  items-center hover:border border-white p-2">
+        <div class="flex flex-col items-center">
+          <span class="text-[#f08804] absolute top-3 font-bold">0</span>
+          <i class="fa-solid fa-cart-shopping text-4xl mr-1 bg-transparent"></i>
+        </div>
+        <span class="font-[700] text-sm mt-3">Cart</span>
       </div>
 
     </div>
 
-    <!-- Shop Cart -->
+    <!-- Shop  -->
     <div class="w-full h-[39px] bg-[#232f3e]">
-      <div class="w-[98%] h-[39px] mx-auto bg-[#232f3e] flex justify-start items-center gap-x-5">
-      <!-- All -->
-      <div class="flex items-center">
-        <div class="text-l mt-[2px]"><i class="fa-solid fa-bars"></i></div>
-        <div class="font-[700] text-[14px] pl-[5px]">All</div>
+      <div class="w-[98%] h-[39px] mx-auto bg-[#232f3e] flex justify-start items-center gap-x-2">
+
+        <!-- Category -->
+        <div class="flex items-center hover:border hover:border-white px-[9px] py-[8px]">
+          <div class="text-l mt-[2px]"><i class="fa-solid fa-bars"></i></div>
+          <div class="font-[700] text-[14px] pl-[5px]">All</div>
+        </div>
+        <!-- Different items -->
+        <div class="flex items-center gap-x-2">
+
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Fresh</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">MX Player</div>
+          <div class="text-sm  mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Sell</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Bestsellers</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Mobiles</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Today's Deals</div>
+          <div class="flex items-center justify-between">
+            <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Prime</div>
+            <i class="fa-solid fa-caret-down text-[#555] text-sm mt-[4px] ml-[5px]"></i>
+
+          </div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Customer Service</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Fashion</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">New Releases</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Amazon Pay</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Electronics</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Home & Kitchen</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Computers</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Car & Motorbike</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Books</div>
+        </div>
+
       </div>
-      <!-- Different items -->
-      <div class="flex items-center gap-x-6">
-
-        <div class="text-[14px]">Fresh</div>
-        <div class="text-[14px]">MX Player</div>
-        <div>Sell</div>
-        <div class="text-[14px]">Bestsellers</div>
-        <div class="text-[14px]">Mobiles</div>
-        <div class="text-[14px]">Today's Deals</div>
-        <div class="flex items-center justify-between">
-          <div class="text-[14px]">Prime</div>
-          <i class="fa-solid fa-caret-down text-[#555] text-[13px] mt-[4px] ml-[5px]"></i>
-
-        </div class="text-[14px]">
-        <div class="text-[14px]">Customer Service</div>
-        <div class="text-[14px]">Fashion</div>
-        <div class="text-[14px]">New Releases</div>
-        <div class="text-[14px]">Amazon Pay</div>
-        <div class="text-[14px]">Electronics</div>
-        <div class="text-[14px]">Home & Kitchen</div>
-        <div class="text-[14px]">Computers</div>
-        <div class="text-[14px]">Car & Motorbike</div>
-        <div class="text-[14px]">Books</div>
-      </div>
-
-    </div>
     </div>
   </header>
 
