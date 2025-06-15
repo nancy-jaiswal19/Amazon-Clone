@@ -1,26 +1,58 @@
-# 🛒 Amazon Clone (Navbar Only)
+# 🛍️ Amazon Clone — Day 2 (HTML + Tailwind CSS)
 
-> 🚧 Currently working on the Amazon homepage clone — starting with the navbar.  
-> Built with **HTML** and **Tailwind CSS**. This is just Day 1 of building a bigger e-commerce front-end project.
-
----
-
-## 📌 Features (So far)
-
-✅ Amazon-style top navbar  
-✅ Responsive layout with Tailwind CSS  
-🚧 More sections (like hero banner, product cards, footer) coming soon
+> ⚒️ Still in progress. This is **Day 2** of building a full Amazon homepage clone using **HTML**, **Tailwind CSS**, and later, **JavaScript**.  
+> I'm starting small — one section at a time, and today, I improved the navbar and layout structure.
 
 ---
 
-## 🧠 Learning Goals
+## 📅 Progress Log
 
-- Structuring HTML like a real developer
-- Using Tailwind CSS for responsive layouts
-- Step-by-step building of a complex UI
+### ✅ Day 1:
+- Created top navbar with logo, address, search bar, language, account, orders, and cart
+
+### ✅ Day 2:
+- Improved the navbar styling & responsiveness  
+- Added sub-navigation bar with categories (like Fresh, Mobile, Prime, etc.)  
+- Cleaned up HTML structure  
+- Set up Tailwind and external CSS file
 
 ---
 
-### ⭐ Stay Tuned!
+## 🔧 Tech Stack
 
-This is just the start. More components, pages, and interactivity coming soon. Let's gooo 💥
+- HTML5  
+- Tailwind CSS  
+- Font Awesome (for icons)
+
+---
+
+## 📁 Project Structure
+
+amazon-clone/
+├── index.html
+├── style.css
+├── images/
+└── README.md
+
+---
+
+## 📌 What's Coming Next
+
+- 🔜 Hero section with carousel/banner  
+- 🔜 Product grid layout  
+- 🔜 Responsive design for mobile  
+- 🔜 Add JavaScript for interactivity
+
+---
+
+## 🙋‍♀️ About Me
+
+**Nancy Jaiswal**  
+BTech CSE Student 👩‍💻 | Learning Web Dev & DSA  
+🌐 [GitHub](https://github.com/nancy-jaiswal19)
+
+---
+
+### ⭐ Star this repo if you want to follow the journey!
+
+> Building real-world UIs one section at a time. Stay tuned 💥
