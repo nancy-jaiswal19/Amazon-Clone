@@ -1,32 +1,40 @@
-# 🛍️ Amazon Clone — Day 2 (HTML + Tailwind CSS)
+# 🛍️ Amazon Clone — Day 3 (Hero + Product Card)
 
-> ⚒️ Still in progress. This is **Day 2** of building a full Amazon homepage clone using **HTML**, **Tailwind CSS**, and later, **JavaScript**.  
-> I'm starting small — one section at a time, and today, I improved the navbar and layout structure.
+> ✨ Building Amazon's homepage UI step-by-step using **HTML**, **Tailwind CSS**, and soon, **JavaScript**.  
+> This is **Day 3** of my 100 Days of Code challenge — added a responsive hero banner & product card layout.
 
 ---
 
 ## 📅 Progress Log
 
 ### ✅ Day 1:
-- Created top navbar with logo, address, search bar, language, account, orders, and cart
+- Setup project folder
+- Created Amazon-style top navbar
 
 ### ✅ Day 2:
-- Improved the navbar styling & responsiveness  
-- Added sub-navigation bar with categories (like Fresh, Mobile, Prime, etc.)  
-- Cleaned up HTML structure  
-- Set up Tailwind and external CSS file
+- Added sub-navbar with categories
+- Cleaned up HTML and Tailwind layout
+
+### ✅ Day 3:
+- Added a hero banner image
+- Designed a basic product card using Tailwind  
+- Made layout responsive (WIP)
 
 ---
 
-## 🔧 Tech Stack
 
-- HTML5  
-- Tailwind CSS  
-- Font Awesome (for icons)
+## 💻 Built With
+
+- ✅ HTML5  
+- ✅ Tailwind CSS  
+- 🔜 JavaScript (coming soon)  
+- 🎨 Font Awesome (for icons)
 
 ---
 
 ## 📁 Project Structure
+
+
 
 amazon-clone/
 ├── index.html
