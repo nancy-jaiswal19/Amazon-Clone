@@ -16,7 +16,7 @@
 </head>
 
 <body class="">
-  <header class="w-full h-[60px] text-white">
+  <header class="w-full  text-white">
     <!-- Main navbar -->
 
     <div class=" w-full h-[60px] mx-auto flex justify-around items-center bg-[#131921]">
@@ -41,13 +41,14 @@
       <!-- search -->
 
       <div class="flex  justify-center px-2 ">
-        <div class="flex items-center rounded-md overflow-hidden border border-transparent focus-within:border-4 focus-within:border-[#f08804]">
+        <div
+          class="flex items-center rounded-md overflow-hidden border border-transparent focus-within:border-4 focus-within:border-[#f08804]">
           <!-- Dropdown -->
           <button
             class="group bg-[#E6E6E6] h-[40px] px-3 flex items-center justify-between w-[52px] hover:bg-[#dddddd] transition-colors duration-200 cursor-pointer ">
             <span class="text-sm text-[#555] leading-none group-hover:text-black">All</span>
             <i class="fa-solid fa-caret-down text-[#555] text-xs ml-2 group-hover:text-black"></i>
-        </button>
+          </button>
 
           <!-- input -->
 
@@ -62,7 +63,7 @@
           </div>
         </div>
 
-        
+
 
 
 
@@ -134,7 +135,8 @@
             <i class="fa-solid fa-caret-down text-[#555] text-sm mt-[4px] ml-[5px]"></i>
 
           </div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">
-          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Customer Service</div>
+          <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Customer Service
+          </div>
           <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Fashion</div>
           <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">New Releases</div>
           <div class="text-sm mt-[5px] mb-[6px] hover:border hover:border-white px-[5px] py-[8px]">Amazon Pay</div>
@@ -148,6 +150,62 @@
       </div>
     </div>
   </header>
+
+  <!-- Hero Banner -->
+  <main class="w-[98%] h-full mx-auto">
+
+  <!-- 🌄 Banner Section -->
+  <div class="relative w-full">
+    <img src="./images/banner4.jpg" alt="Banner" class="w-full">
+
+    <!-- ⬅️ Left Arrow -->
+    <button class="h-[250px] w-[84px] absolute start-0 top-1/4">
+      <i class="fa-solid fa-arrow-left text-2xl"></i>
+    </button>
+
+    <!-- ➡️ Right Arrow -->
+    <button class="absolute end-0 top-1/4">
+      <i class="fa-solid fa-arrow-right text-2xl"></i>
+    </button>
+  </div>
+
+  <!-- 🛒 Product Cards Section -->
+  <div class="grid grid-cols-4 gap-4 mt-[-120px] z-10 relative px-4">
+    <div class="bg-white shadow-md p-4">
+      <h2 class="font-bold text-base mb-2">Appliances for your home | Up to 55% off</h2>
+      
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <img src="./images/Appliances1.jpg" alt="">
+          <div class="text-[12px]">Air conditioners</div>
+        </div>
+
+        <div>
+          <img src="./images/Appliances2.jpg" alt="">
+          <div class="text-[12px]">Refrigerators</div>
+        </div>
+
+        <div>
+          <img src="./images/Appliances3.jpg" alt="">
+          <div class="text-[12px]">Microwaves</div>
+        </div>
+
+        <div>
+          <img src="./images/Appliances4.jpg" alt="">
+          <div class="text-[12px]">Washing machines</div>
+        </div>
+      </div>
+
+      <!-- 🔗 See more -->
+     <div>
+  <a href="#" class="text-blue-600 text-xs hover:underline hover:text-blue-800 cursor-pointer">
+    See more
+  </a>
+</div>
+    </div>
+  </div>
+
+</main>
 
 
 </body>
