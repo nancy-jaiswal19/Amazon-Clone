@@ -23,7 +23,7 @@
 
       <!-- logo -->
 
-      <div class="h-[48px] pt-4 flex hover:border hover:border-white my-auto p-1">
+      <div class="h-[48px] pt-4 flex hover:border hover:border-white  p-1">
         <div class="bg-[url('./images/logo.png')] w-[100px] h-[40px] bg-no-repeat bg-contain "></div>
         <p class="text-white">.in</p>
       </div>
@@ -32,8 +32,8 @@
 
       <div class="hover:border hover:border-white p-2">
         <div class="w-full ml-4 text-[12px] text-[#CCCCCC] -mb-2">Hello</div>
-        <div>
-          <span class="mt-[8px]"><i class="fa-solid fa-location-dot"></i></span>
+        <div class="flex gap-1 items-end">
+          <span><i class="fa-solid fa-location-dot"></i></span>
           <span class="w-full text-[14px] font-[700]">Select your address</span>
         </div>
       </div>
@@ -45,16 +45,16 @@
           class="flex items-center rounded-md overflow-hidden border border-transparent focus-within:border-4 focus-within:border-[#f08804]">
           <!-- Dropdown -->
           <button
-            class="group bg-[#E6E6E6] h-[40px] px-3 flex items-center justify-between w-[52px] hover:bg-[#dddddd] transition-colors duration-200 cursor-pointer ">
-            <span class="text-sm text-[#555] leading-none group-hover:text-black">All</span>
-            <i class="fa-solid fa-caret-down text-[#555] text-xs ml-2 group-hover:text-black"></i>
+            class="group bg-[#E6E6E6] h-[40px] px-3 flex items-center gap-2 hover:bg-[#dddddd] transition-colors duration-200 cursor-pointer ">
+            <span class="text-sm text-[#555] group-hover:text-black">All</span>
+            <i class="fa-solid fa-caret-down text-[#555] text-xs  group-hover:text-black"></i>
           </button>
 
           <!-- input -->
 
           <label for="search" class="sr-only">Search Amazon.in</label>
           <input type="text" id="search" name="search" placeholder="Search Amazon.in"
-            class="w-[628px] h-[40px] bg-white text-[#111] text-[15px] outline-none border border-transparent  px-2" />
+            class="w-[700px] h-full bg-white text-[#111] text-[15px] outline-none border border-transparent  px-2" />
 
           <!-- icon -->
 
@@ -69,18 +69,18 @@
       <!-- language -->
 
       <div class="flex items-center ">
-        <div class="h-[50px] flex items-center hover:border hover:border-white pl-1">
+        <div class="h-[50px] flex items-center gap-1 hover:border hover:border-white pl-1">
           <span
-            class="inline-block bg-[url('./images/india.webp')] w-[24px] h-[19px] bg-cover bg-center bg-no-repeat rounded-[1px] mt-[7px] mr-[2px] "></span>
+            class="inline-block bg-[url('./images/india.webp')] w-[20px] h-[19px] bg-cover bg-center bg-no-repeat rounded-[1px] mt-[7px]  "></span>
           <div class="text-[14px] mt-[5px] font-[700]">EN</div>
         </div>
 
-        <i class="fa-solid fa-caret-down text-[#555] text-[12px] mt-[10px] ml-[2px]"></i>
+        <i class="fa-solid fa-caret-down text-gray-400 text-[12px] mt-[10px] ml-[2px]"></i>
       </div>
 
       <!-- account -->
 
-      <div class="flex items-center ">
+      <div class="flex items-center">
         <div class="h-[50px] flex flex-col justify-center items-start hover:border hover:border-white pr-1 pl-2">
           <span class="text-[12px]">Hello, sign in</span>
           <span class="text-[14px] font-[700] leading-none ">Account & Lists</span>
@@ -100,9 +100,9 @@
       <!-- Cart -->
 
       <div class="h-[50px] flex  items-center hover:border border-white p-2">
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center gap-1">
           <span class="text-[#f08804] absolute top-3 font-bold">0</span>
-          <i class="fa-solid fa-cart-shopping text-4xl mr-1 bg-transparent"></i>
+          <i class="fa-solid fa-cart-shopping text-4xl  bg-transparent"></i>
         </div>
         <span class="font-[700] text-sm mt-3">Cart</span>
       </div>
