@@ -46,9 +46,13 @@ amazon-clone/
 🗺️ Roadmap (Coming Soon)
 
 🔄 Complete sliding image gallery with JavaScript
+
 🛒 Add responsive product grid
+
 🧾 Footer section and dropdowns
+
 🔥 Add interactivity to cart and search
+
 🌙 Theme toggle and local storage (advanced)
 
 
