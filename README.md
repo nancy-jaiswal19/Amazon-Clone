@@ -1,34 +1,33 @@
-# 🛍️ Amazon Clone — Day 3 (Hero + Product Card)
+# 🛒 Amazon Clone UI — 7 Day Build Challenge
 
-> ✨ Building Amazon's homepage UI step-by-step using **HTML**, **Tailwind CSS**, and soon, **JavaScript**.  
-> This is **Day 3** of my 100 Days of Code challenge — added a responsive hero banner & product card layout.
-
----
-
-## 📅 Progress Log
-
-### ✅ Day 1:
-- Setup project folder
-- Created Amazon-style top navbar
-
-### ✅ Day 2:
-- Added sub-navbar with categories
-- Cleaned up HTML and Tailwind layout
-
-### ✅ Day 3:
-- Added a hero banner image
-- Designed a basic product card using Tailwind  
-- Made layout responsive (WIP)
+> ⚙️ Rebuilding the Amazon India homepage UI step-by-step using **HTML**, **Tailwind CSS**, and soon **JavaScript**  
+> ✅ This project is part of my **100 Days of Code Challenge**.  
+> ✨ Progress so far: Navbar, Hero Banner, Product Cards, and now starting a **sliding image gallery**
 
 ---
 
+## 🗓️ 7 Days of Progress
 
-## 💻 Built With
+| Day | Task |
+|-----|------|
+| ✅ Day 1 | Setup project and created Amazon-style top navbar |
+| ✅ Day 2 | Added sub-navbar with product categories |
+| ✅ Day 3 | Created a full-width hero banner + started first product card |
+| ✅ Day 4 | Cleaned up HTML & Tailwind code in header |
+| ✅ Day 5 | Added product section styling |
+| ✅ Day 6 | Organized images and assets, worked on responsiveness |
+| ✅ Day 7 | Started image slider for hero section (static version for now) |
 
-- ✅ HTML5  
-- ✅ Tailwind CSS  
-- 🔜 JavaScript (coming soon)  
-- 🎨 Font Awesome (for icons)
+---
+
+## 🧰 Built With
+
+- HTML5  
+- Tailwind CSS  
+- Font Awesome  
+- Git + GitHub  
+- JavaScript (Coming soon 🔜)
+  
 
 ---
 
@@ -44,12 +43,14 @@ amazon-clone/
 
 ---
 
-## 📌 What's Coming Next
+🗺️ Roadmap (Coming Soon)
 
-- 🔜 Hero section with carousel/banner  
-- 🔜 Product grid layout  
-- 🔜 Responsive design for mobile  
-- 🔜 Add JavaScript for interactivity
+🔄 Complete sliding image gallery with JavaScript
+🛒 Add responsive product grid
+🧾 Footer section and dropdowns
+🔥 Add interactivity to cart and search
+🌙 Theme toggle and local storage (advanced)
+
 
 ---
 
